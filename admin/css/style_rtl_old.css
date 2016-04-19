@@ -1,0 +1,132 @@
+/* CSS Document */
+
+body { 
+	margin:0; padding:0; 
+	background-color:#FFFFFF; 
+	font:11pt Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {}
+
+a:link, a:visited { text-decoration:none; }
+a:hover {}
+a:active {}
+
+.clear { clear:both; }
+
+.form-text {
+	padding:3px 5px;
+	border:1px solid #666666;
+	text-align:right;
+}
+.form-submit {
+	background:#009900;
+	border:1px solid #006600;
+	padding:3px 5px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.form-submit:hover { 
+	cursor:pointer;
+	background:#99CC00; 
+}
+
+#wrapper { 
+	border:1px solid red;
+	width:978px;
+	margin:10px auto;
+}
+
+#header { background:#CCFFFF; min-height:70px; }
+#header #logo { width:290px; float:left; padding:5px 0 5px 10px; }
+#header #logo img { border:0; }
+#header #banner { float:left; width:678px; padding-top:14px; }
+#header #banner .site-name { 
+	margin:0; 
+	font:1.5em Georgia, "Times New Roman", Times, serif;
+}
+#header #banner .slogan {
+	font-style:italic;
+}
+
+#nav-menu { background:#333333; }
+#nav-menu ul { list-style:none; margin:0; padding:10px 0; }
+#nav-menu ul li { 
+	display:inline; 
+	padding:9px 15px;
+}
+#nav-menu ul li:hover {
+	background:#999999;
+}
+
+#nav-menu ul li a { 
+	color:#FFFFFF; 
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+#nav-menu ul ul {
+	position:absolute;
+	display:none;
+	background:#999999;
+	margin:8px 0 0 225px;
+	border-top:2px solid #FF6600;
+}
+
+#nav-menu ul ul li { display:block; }
+#nav-menu ul ul li:hover { background:#CCCCCC; }
+#nav-menu ul li:hover ul { display:block; }
+
+#main {}
+#main #left { float:right; width:250px; padding:5px; }
+#main #content { float:left; width:708px; padding:5px; }
+
+#footer { background:#FFFFCC; }
+
+.block { 
+	border:1px solid #006600; margin:0 0 10px 0; 
+}
+.block .block-title { 
+	background:#006600; padding:5px; text-align:right;
+}
+.block .block-title h2 { 
+	color:#FFFFFF; margin:0; font-size:12pt; 
+}
+.block .block-content { 
+	padding:5px; 
+}
+
+.block .block-item {
+	padding:3px;
+}
+.block .block-item label {
+	display:block;
+	width:70px;
+	padding-top:3px;
+	float:right;
+}
+.block .form-text {
+	width:130px;
+	background:url(images/icon-arrow-green.jpg) right 50% no-repeat;
+	padding-right: 20px;
+	float:left;
+}
+.block .form-submit {
+	margin:5px 0 0 73px;
+}
+
+#block-login .block-content { 
+	background:#FFFFCC url(images/icon-user1.png) no-repeat; 
+}
+#icon-stat { 
+	width:40px; 
+	position:absolute;
+	margin:-15px 0 0 220px;
+}
+#div-text-special {
+	position:absolute;
+	margin:-17px 0 0 800px;
+	color:#FF0000;
+	font:18pt Georgia, "Times New Roman", Times, serif;
+	opacity: 0.5;
+}
